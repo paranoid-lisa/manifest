@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Vendor (NSR) -->
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="NSR-XINE/android_frameworks_native" remote="nsr" />
+
+</manifest>

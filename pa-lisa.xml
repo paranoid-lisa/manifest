@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Vendor (AOSPA) -->
+  <project path="vendor/aospa" name="paranoid-lisa/android_vendor_aospa" remote="pa-lisa" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Hardware (PA-LISA) -->
+  <project path="hardware/xiaomi" name="paranoid-lisa/hardware_xiaomi" remote="pa-lisa" />  
+
+</manifest>

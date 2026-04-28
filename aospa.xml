@@ -82,8 +82,6 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
   <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -202,9 +200,6 @@
   <project path="toolchain/pgo-profiles" name="AOSPA/android_toolchain_pgo-profiles" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
-    <linkfile src="build.sh" dest="rom-build.sh" />
-  </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
   <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />
   <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />

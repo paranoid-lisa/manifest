@@ -51,4 +51,18 @@
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
+  <!-- PA-LISA -->
+  <remote  name="pa-lisa"
+           fetch="https://github.com"
+	   revision="uvite" />
+
+  <include name="pa-lisa.xml"/>
+
+  <!-- NSR -->
+  <remote  name="nsr"
+           fetch="https://github.com"
+           revision="uvite" />
+
+  <include name="nsr.xml"/>
+
 </manifest>
