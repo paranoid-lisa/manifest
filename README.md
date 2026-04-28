@@ -60,7 +60,7 @@ and their change histories.
 # You may need to adjust this value if you have a particularly slow connection.
 ```
 ```bash
-repo sync --current-branch --no-tags -j4
+repo sync --current-branch --no-tags -j$(nproc --all)
 ```
 
 #### Syncing specific projects ####
