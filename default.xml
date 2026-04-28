@@ -56,6 +56,10 @@
            fetch="https://github.com"
 	   revision="uvite" />
 
+  <remote  name="lisa-trees"
+           fetch="https://github.com/paranoid-lisa"
+           revision="uvite" />
+
   <include name="pa-lisa.xml"/>
 
   <!-- NSR -->
