@@ -41,7 +41,9 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/paranoid-lisa/manifest -b uvite
+```
+```bash
+repo init -u https://github.com/paranoid-lisa/manifest -b uvite
 ```
 
 ### Downloading the source tree ###
@@ -56,7 +58,9 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync --current-branch --no-tags -j4
+```
+```bash
+repo sync --current-branch --no-tags -j4
 ```
 
 #### Syncing specific projects ####
